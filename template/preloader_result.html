@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     {% load static %}
     <title>Document</title>
-    <link rel="stylesheet" href="{% static 'preloader.css' %}" />
+    <link rel="stylesheet" href="{% static 'results_loading.css' %}" />
   </head>
   <script>
     // JavaScript function to remove preloader
@@ -22,13 +22,13 @@
     // Event listener for when the document is fully loaded
     document.addEventListener("DOMContentLoaded", function () {
       // Call the removePreloader function after a short delay
-      setTimeout(removePreloader, 4500); // Change the delay time as needed
+      setTimeout(removePreloader, 3000); // Change the delay time as needed
     });
   </script>
   <body>
     <div class="pre-loader">
       <div>
-        <img src="{% static 'assets/Loading.gif' %}" alt="" id="loader" />
+        <img src="{% static 'assets/jobless.gif' %}" alt="" id="loader" />
       </div>
     </div>
   </body>

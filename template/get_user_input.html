@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="static/get_user_input.css" />
     {% load static %}
     <script src="{% static 'script.js' %}"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="{% static 'get_user_input.css' %}" />
   </head>
   <body>
@@ -102,6 +107,12 @@
         <a onclick="validate_input_interests()">Next</a>
       </section>
 
+      Adventure Tourism Airline Industry Beverage Catering Cruise Industry
+      Culinary Destination Management Ecotourism Event Management Event Planning
+      Food Service Front Office Gaming Hospitality Hospitality Consulting
+      Operations Photography Resort Management Revenue Management Sales Spa
+      Management Sustainable Tourism Theme Parks Tourism Tourism Consulting
+      Travel Writing
       <section id="section-four">
         <!--section for preffered industry-->
         <label for="industry">Preferred Industry</label><br />
@@ -138,5 +149,37 @@
         }
       });
     });
+  </script> -->
+  <!-- <script>
+    function showSubDropdown() {
+      var mainDropdown = document.getElementById("main-dropdown");
+      var accountancyDropdown = document.getElementById("accountancy");
+      var accountingTechnology = document.getElementById(
+        "accountingTechnology"
+      );
+      if (mainDropdown.value === "Accountancy") {
+        accountancyDropdown.style.display = "block";
+      } else if (mainDropdown.value === "Accounting Technology") {
+        accountingTechnology.style.display = "block";
+      } else if (mainDropdown.value === "Civil Engineering") {
+        subDropdownContainer.style.display = "block";
+      } else if (mainDropdown.value === "Computer Engineering") {
+        subDropdownContainer.style.display = "block";
+      } else if (mainDropdown.value === "Computer Science") {
+        subDropdownContainer.style.display = "block";
+      } else if (mainDropdown.value === "Electrical Engineering") {
+        subDropdownContainer.style.display = "block";
+      } else if (mainDropdown.value === "Mechanical Engineering") {
+        subDropdownContainer.style.display = "block";
+      } else if (mainDropdown.value === "Nursing") {
+        subDropdownContainer.style.display = "block";
+      } else if (mainDropdown.value === "Psychology") {
+        subDropdownContainer.style.display = "block";
+      } else if (mainDropdown.value === "Tourism Management") {
+        subDropdownContainer.style.display = "block";
+      } else {
+        subDropdownContainer.style.display = "none";
+      }
+    }
   </script> -->
 </html>
