@@ -60,20 +60,20 @@ f1 = f1_score(y_test, y_pred, average='weighted')
 print(f'F1 Score: {f1:.3f}')
 
 # Calculate confusion matrix
-conf_matrix = confusion_matrix(y_test, y_pred)
-print('Confusion Matrix:')
-print(conf_matrix)
+# conf_matrix = confusion_matrix(y_test, y_pred)
+# print('Confusion Matrix:')
+# print(conf_matrix)
 
-# Create a heatmap of the confusion matrix
-sns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues')
+# # Create a heatmap of the confusion matrix
+# sns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues')
 
-#Add labels and title
-plt.xlabel('Predicted label')
-plt.ylabel('True label')
-plt.title('Confusion Matrix')
+# #Add labels and title
+# plt.xlabel('Predicted label')
+# plt.ylabel('True label')
+# plt.title('Confusion Matrix')
 
-# Show the plot
-plt.show()
+# # Show the plot
+# plt.show()
 
 # fig, axs = plt.subplots(1, 3, figsize=(15, 5))
 

@@ -6,7 +6,7 @@ from sklearn.naive_bayes import MultinomialNB  # Import MultinomialNB
 from sklearn.metrics import accuracy_score
 
 # Read the CSV file
-df = pd.read_csv('FINAL-DATASET-Macintosh.csv')
+df = pd.read_csv('FINAL-DSET-Macintosh.csv')
 
 # Handle missing values
 df = df.fillna('')
